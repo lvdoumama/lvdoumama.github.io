@@ -3,11 +3,12 @@ html.page-home {
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
-	background-color: #FFF;
-	background-size: cover;
-	background-position: center center;
+	background-repeat: no-repeat;
+	background-position: center right;
+	/*background-image: url(74.jpg);*/
 }
+
+
 .article-content p {
 	font-size: 14px;
 }
