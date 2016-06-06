@@ -8,11 +8,35 @@ html.page-home {
 	/*background-image: url(74.jpg);*/
 }
 
-
 .article-content p {
 	font-size: 14px;
 }
 .content.content-post .article-header .post-title {
 	font-size: 28px;
 }
+
+.content-home .avatar img {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.article-content img {
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  margin: 2px 0;
+}
+.article-content img:hover, .hvr-shadow:focus, .hvr-shadow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
 
