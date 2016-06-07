@@ -8,17 +8,37 @@ html.page-home {
 	/*background-image: url(74.jpg);*/
 }
 
-.article-content p {
-	font-size: 14px;
+
+table tr > th {
+  font-size: 14px;
 }
-.content.content-post .article-header .post-title {
-	font-size: 28px;
+table tr > td {
+  font-size: 13px;
+  vertical-align:middle;
+}
+table th {
+  white-space: nowrap;
+  text-align: center;
+  background-color: #EEE;
 }
 
+.content.content-post .article-header .post-title {
+  font-size: 28px;
+}
 .content-home .avatar img {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
+.article-content p {
+	font-size: 14px;
+  color: #222;
+}
+.article-content p em {
+  font-size: 13px;
+}
+.article-content table strong {
+  color: #333;
+}
 .article-content img {
 	display: inline-block;
   vertical-align: middle;
