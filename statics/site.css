@@ -57,6 +57,9 @@ table th {
 .article-content img:hover, .hvr-shadow:focus, .hvr-shadow:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
-
+.article-content ul {
+  margin-left: 16px;
+  font-size: 13px;
+}
 
 
