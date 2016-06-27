@@ -26,7 +26,15 @@ table th {
   font-size: 28px;
 }
 .content-home .avatar img {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.item-post .post-date {
+  width: 40px;
+}
+
+.article-content h1, .article-content h2, .article-content h3, .article-content h4, .article-content h5, .article-content h6 {
+  font-weight: bold;
 }
 
 .article-content p {
@@ -57,9 +65,12 @@ table th {
 .article-content img:hover, .hvr-shadow:focus, .hvr-shadow:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
-.article-content ul {
+
+.article-content ol, .article-content ul {
   margin-left: 16px;
   font-size: 13px;
 }
+
+
 
 
